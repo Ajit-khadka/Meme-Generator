@@ -79,10 +79,10 @@ const Input = () => {
             className="memeImage drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]"
             src={meme.randomImage}
           />
-          <h2 className=" TopText absolute font-bold text-white text-4xl top-5 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">
+          <h2 className=" TopText absolute font-bold text-white text-4xl top-5 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] break-words max-w-[80%]">
             {meme.topText}
           </h2>
-          <h2 className=" BottomText absolute t-5 font-bold text-white text-4xl bottom-5 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] ">
+          <h2 className=" BottomText absolute t-5 font-bold text-white text-4xl bottom-5 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] break-words max-w-[100%]">
             {meme.bottomText}
           </h2>
         </div>
