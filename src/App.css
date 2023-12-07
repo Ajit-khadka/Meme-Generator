@@ -1,0 +1,7 @@
+/* Input file */
+
+.Button{
+    transition-timing-function: ease-in-out;
+    transition-duration: 200ms;
+
+}
