@@ -57,6 +57,7 @@ const Input = () => {
             value={meme.topText}
             onChange={inputHandler}
             name="topText"
+            maxLength={50}
           />
           <input
             className="border border-black border-opacity-[30%] w-[300px] px-2 py-2 rounded-md "
@@ -65,6 +66,7 @@ const Input = () => {
             value={meme.bottomText}
             onChange={inputHandler}
             name="bottomText"
+            maxLength={50}
           />
         </div>
         <button
@@ -79,10 +81,10 @@ const Input = () => {
             className="memeImage drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]"
             src={meme.randomImage}
           />
-          <h2 className=" TopText absolute font-bold text-white text-4xl top-5 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] break-words max-w-[80%]">
+          <h2 className=" TopText absolute font-bold text-white text-4xl top-5 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] break-words max-w-[75%]">
             {meme.topText}
           </h2>
-          <h2 className=" BottomText absolute t-5 font-bold text-white text-4xl bottom-5 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] break-words max-w-[100%]">
+          <h2 className=" BottomText absolute t-5 font-bold text-white text-4xl bottom-5 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] break-words max-w-[75%]">
             {meme.bottomText}
           </h2>
         </div>
